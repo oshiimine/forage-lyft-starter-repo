@@ -7,4 +7,4 @@ class CarriganTire(Tire):
         self.tireArray = tireArray
 
     def needs_service(self):
-        return max(self.tireArray) > Constants.carriganPerTireRequirement
+        return max(self.tireArray) >= Constants.carriganPerTireRequirement

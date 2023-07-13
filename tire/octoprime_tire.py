@@ -7,4 +7,4 @@ class OctoprimeTire(Tire):
         self.tireArray = tireArray
 
     def needs_service(self):
-        return sum(self.tireArray) > Constants.octoprimeTotalTireRequirement
+        return sum(self.tireArray) >= Constants.octoprimeTotalTireRequirement
